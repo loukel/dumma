@@ -18,3 +18,4 @@ I modified and used tailwind components from https://tailblocks.cc/
 
 # Hosting & Functions
 This repo uses Netlify to host the site and uses the function when users sign up to the mail list.# dumma
+# dumma
