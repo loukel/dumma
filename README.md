@@ -1,5 +1,5 @@
 # About
-This is the front-end repo for Entrepreneurs Durham's site.
+This is the front-end repo for Team Durham MMA's site.
 
 # Technolgies
 - [React](https://reactjs.org/)
@@ -18,4 +18,3 @@ I modified and used tailwind components from https://tailblocks.cc/
 
 # Hosting & Functions
 This repo uses Netlify to host the site and uses the function when users sign up to the mail list.# dumma
-# dumma
