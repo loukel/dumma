@@ -16,12 +16,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start:api": "netlify-lambda serve .netlify/functions",
-    "build:api": "netlify-lambda build .netlify/functions",
-    "postinstall": "netlify-lambda install",
     "start": "craco start",
-    "build:app": "craco build",
-    "build": "npm run build:api && npm run build:app",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
@@ -45,7 +41,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.8",
-    "netlify-lambda": "^2.0.15",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
