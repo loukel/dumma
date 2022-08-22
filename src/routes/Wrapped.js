@@ -5,7 +5,7 @@ const Wrapped = ({ children}) => {
   return (
     <>
       <Header />
-      {children}
+        {children}
       <Footer />
     </>
   )
