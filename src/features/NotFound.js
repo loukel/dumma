@@ -1,4 +1,4 @@
-import logo from '@/resources/logo.svg'
+import logo from '@/resources/logo.png'
 
 const NotFound = () => {
   const facebookLink = process.env.REACT_APP_FACEBOOK
@@ -9,8 +9,8 @@ const NotFound = () => {
       <div className="container">
         <div className="bg-primary rounded-lg shadow-lg p-5 md:p-20 mx-1">
           <div className="text-center">
-            <h2 className="text-3xl tracking-tight leading-10 font-black text-logo-red sm:text-5xl sm:leading-none md:text-5xl">
-              Entrepreneurs Durham
+            <h2 className="text-3xl tracking-tight leading-10 font-black text-logo-yellow sm:text-5xl sm:leading-none md:text-5xl">
+              Durham University MMA
             </h2>
             <div className='flex justify-center mt-3'>
               <img src={logo} alt='logo' className='w-20 md:w-28'/>

@@ -8,15 +8,15 @@ module.exports = {
     },
     backgroundColor: theme => ({
       ...theme('colors'),
-      'primary': '#313131',
-      'secondary': '#414141',
-      'tertiary': '#525252',
-      'logo-red': '#fb2414',
+      'primary': '#413F42',
+      'secondary': '#191919',
+      'tertiary': '#413F42',
+      'logo-yellow': '#E1B335',
     }),
     textColor: theme => ({
       ...theme('colors'),
-      'primary': '#fff',
-      'logo-red': '#fb2414',
+      'primary': '#FFFFFF',
+      'logo-yellow': '#E1B335',
     }),
     extend: {
       keyframes: {
