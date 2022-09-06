@@ -35,3 +35,6 @@ module.exports = {
   },
   plugins: [],
 }
+// Other colour pallette: 
+// Yellow: #FEE715
+// Black: #101820
