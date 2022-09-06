@@ -11,14 +11,15 @@ const Team = () => {
           <TeamCard 
             name='5th Element BJJ' 
             role='BJJ'
-            imgFile='5th_element.jpg'
+            imgFile='5th_element.png'
             description=""
             instagram='https://www.instagram.com/thestoicvirago/'
           />
           <TeamCard
-            name='Itaipaya' 
+            name='Itaipava' 
             role='MMA' 
-            imgFile='itaipaya.jpg'
+            imgFile='itaipava.jpg'
+            bordered={true}
             description=""
             instagram='https://www.instagram.com/eunice_hung_/'
           />
@@ -46,7 +47,7 @@ const Team = () => {
           <TeamCard 
             name='Louis Kelly' 
             role='Secretary' 
-            imgFile='louis_kelly.jpg'
+            imgFile='louis_kelly.jpeg'
             description=""
             instagram='https://www.instagram.com/louiskellyy/'
           />
@@ -80,7 +81,7 @@ const Team = () => {
             name='Chantal Stenger' 
             role='Team Captain'
             description=""
-            imgFile='chantal_stenger.jpg'
+            imgFile='chantal_stenger.jpeg'
             instagram='https://www.instagram.com/wildcatinthefield/'
           />
           <TeamCard 
