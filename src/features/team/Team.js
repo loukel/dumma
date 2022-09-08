@@ -13,15 +13,22 @@ const Team = () => {
             role='BJJ'
             imgFile='5th_element.png'
             description=""
-            instagram='https://www.instagram.com/thestoicvirago/'
+            instagram='https://www.instagram.com/5thelementdurham/'
           />
           <TeamCard
             name='Itaipava' 
             role='MMA' 
             imgFile='itaipava.jpg'
-            bordered={true}
+            bordered={false}
             description=""
-            instagram='https://www.instagram.com/eunice_hung_/'
+            instagram='https://www.instagram.com/itaipava_walbottle/'
+          />
+          <TeamCard
+            name='Team Durham'  
+            imgFile='team_durham.jpg'
+            bordered={false}
+            description=""
+            instagram='https://www.instagram.com/team.durham/'
           />
         </div>
       </div>
@@ -33,7 +40,7 @@ const Team = () => {
           <TeamCard 
             name='Nosheena Jabeen' 
             role='President'
-            imgFile='nosheena_jabeen.jpg'
+            imgFile='nosheena_jabeen.jpeg'
             description=""
             instagram='https://www.instagram.com/thestoicvirago/'
           />
@@ -62,7 +69,7 @@ const Team = () => {
             name='Joshua Fenton' 
             role='Social and Marketing Secretary'
             description=""
-            imgFile='joshua_fenton.jpg'
+            imgFile='joshua_fenton.jpeg'
             instagram='https://www.instagram.com/joshf112/'
           />
           <TeamCard 
@@ -88,7 +95,7 @@ const Team = () => {
             name='Leon Finnen' 
             role='Team Captain'
             description=""
-            imgFile='leon_finnen.jpg'
+            imgFile='leon_finnen.jpeg'
             instagram='https://www.instagram.com/leon_finnen/'
           />
         </div>
