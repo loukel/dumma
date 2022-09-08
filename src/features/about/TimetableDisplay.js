@@ -1,36 +1,7 @@
-import Timetable from 'react-timetable-events'
-
 const TimetableDisplay = () => {
   return ( 
     <section>
-      <Timetable
-        events={{
-          monday: [
-            {
-              id: 1,
-              name: "BJJ W/ REECE",
-              type: "custom",
-              startTime: new Date("2018-02-23T16:00:00"),
-              endTime: new Date("2018-02-23T18:00:00"),
-            },
-          ],
-          wednesday: [
-            {
-              id: 2,
-              name: "MMA W/ REECE",
-              type: "custom",
-              startTime: new Date("2018-02-23T17:00:00"),
-              endTime: new Date("2018-02-23T19:00:00"),
-            },
-          ],
-          saturday: [],
-          sunday: [],
-        }}
-        style={{ height: '500px', fontSize: '30px' }}
-        bodyAttributes={{ "className": "font-varela-round" }}
-        headerAttributes={{ "className": "font-varela-round bg-primary" }}
-        hoursInterval={{ from: 14, to: 22 }}
-      />
+      {/* Use grid instead wtih squares from monday to sunday */}
       <table>
         <tr>
           <th>Monday</th>
