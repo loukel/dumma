@@ -47,7 +47,7 @@ const Team = () => {
             name='Loïc Péron' 
             role='Welfare Officer'
             description="The Welfare Officer gives members a trusted person to speak to about a concern, either within the club or at times outside athletics. They have the skills and knowledge to.manage any concern raised in an appropriate way and ensure that the correct information is shared with the relevant people."
-            imgFile='loic_peron.jpg'
+            imgFile='loic_peron.jpeg'
           />
           <TeamCard
             name='Rik Knowles' 
