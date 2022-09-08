@@ -9,7 +9,7 @@ const TeamCard = ({ name, role, imgFile, description, facebook, instagram, borde
         <div className="flex-grow sm:pl-8">
           <h2 className="title-font font-medium text-lg text-gray-900">{name}</h2>
           <h3 className="text-gray-500 mb-3">{role}</h3>
-          <p className="mb-4">{description}</p>
+          <p className="mb-4 text-sm">{description}</p>
           <span className="inline-flex">
             {facebook && 
               <a href={facebook} rel="noopener noreferrer" target="_blank" className="text-gray-500">
