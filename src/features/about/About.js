@@ -1,5 +1,5 @@
 import Events from "./Events"
-import TimetableDisplay from "./TimetableDisplay"
+// import TimetableDisplay from "./TimetableDisplay"
 
 const About = () => {
   return ( 
