@@ -14,9 +14,9 @@ const About = () => {
         </button> */}
       </div>
       <Events />
-      <div className='p-6'>
+      {/* <div className='p-6'>
         <TimetableDisplay />
-      </div>
+      </div> */}
     </div>
   )
 }
