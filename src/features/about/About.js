@@ -1,10 +1,11 @@
+import Events from "./Events"
 import TimetableDisplay from "./TimetableDisplay"
 
 const About = () => {
   return ( 
-    <div className="w-full animate-fade">
+    <div className="animate-fade lg:mx-16">
       <div className='p-6'>
-        <h1 className="text-3xl font-bold text-center">Welcome to Durham University MMA</h1>
+        <h1 className="text-3xl font-bold text-center mb-6">Welcome to Durham University MMA</h1>
         <p className="text-center">
           Durham University Mixed Martial Arts Club (DUMMA) was established with the intention of combining the best martial art traditions around. Whether it be kickboxing, Muay Thai, or Jiu-jitsu; we are determined to challenge ourselves to grow and become more well-rounded. We currently receive coaching from top-tier BJJ and MMA specialists from the North East. There are a range of sessions available, from Kick-boxing to Muay Thai to BJJ.
         </p>
@@ -12,12 +13,7 @@ const About = () => {
           Join
         </button> */}
       </div>
-      <div className='p-6'>
-        <h1 className="text-3xl font-bold text-center">Try it out!</h1>
-        <p>
-          squares with events
-        </p>
-      </div>
+      <Events />
       <div className='p-6'>
         <TimetableDisplay />
       </div>
