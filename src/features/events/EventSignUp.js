@@ -22,7 +22,7 @@ const EventSignUp = () => {
   const { id: eventId } = useParams()
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
-  const [experience, setExperience] = useState('')
+  const [experience, setExperience] = useState('None')
 
   const [message, setMessage] = useState({
     name: '',
@@ -45,6 +45,7 @@ const EventSignUp = () => {
           name,
           email,
           experience,
+          createdAt: new Date(),
           eventId,
         }
 
