@@ -29,7 +29,7 @@ const NotFound = () => {
             {facebookLink &&
               <div className="m-3">
                 <a href={facebookLink}
-                  title="Entrepreneurs Durham On Facebook"
+                  title="Durham University MMA On Facebook"
                   className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const NotFound = () => {
             {instagramLink &&
               <div className="m-3">
                 <a href={instagramLink} 
-                  title="Entrepreneurs Durham On Instagram"
+                  title="Durham University On Instagram"
                   className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-pink-600 hover:border-pink-500 hover:bg-pink-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
                   target="_blank" 
                   rel="noopener noreferrer"

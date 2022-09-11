@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="bg-tertiary bg-opacity-75">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-400 text-sm text-center sm:text-left">© 2022 Durham University MMA —
-            <a href="https://www.instagram.com/durhamentrepreneurs/" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@durham_mma</a>
+            <a href="https://www.instagram.com/durham_mma/" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@durham_mma</a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             {facebookLink &&
