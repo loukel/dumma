@@ -6,11 +6,14 @@ const Events = () => {
   const [event1Count, setEvent1Count] = useState('')
   const [event2Count, setEvent2Count] = useState('')
 
-  useEffect(async () => {
-    const event1 = await getEventUsers("1")
-    const event2 = await getEventUsers("2")
-    setEvent1Count(event1.length)
-    setEvent2Count(event2.length)
+  useEffect(() => {
+    async function getEventCounts() {
+      const event1 = await getEventUsers("1")
+      const event2 = await getEventUsers("2")
+      setEvent1Count(event1.length)
+      setEvent2Count(event2.length)
+    }
+    getEventCounts()
   }, [])
 
   return ( 

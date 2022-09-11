@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getEventUsers } from "@/services/eventApi";
-import { getSuggestedQuery } from "@testing-library/react";
 
 const EventPeople = () => {
   const {id: eventId } = useParams()
@@ -9,16 +8,19 @@ const EventPeople = () => {
   const [filteredPeople, setFilteredPeople] = useState([]) 
   const [query, setQuery] = useState('') 
 
-  useEffect(async () => {
-    let result = await getEventUsers(eventId.toString())
-    setPeople(result.map(item => item.data))
-  }, [])
+  useEffect(() => {
+    async function getEventPeople() {
+      let result = await getEventUsers(eventId.toString())
+      setPeople(result.map(item => item.data))
+    }
+    getEventPeople()
+  }, [eventId])
 
   useEffect(() => {
     if (query !== '') {
       setFilteredPeople(people.filter(item => item.name.toLowerCase().includes(query.toLowerCase()) || item.email.toLowerCase().includes(query.toLowerCase())))
     }
-  }, [query]) 
+  }, [query, people]) 
 
   console.log(query)
 
