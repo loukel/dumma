@@ -18,7 +18,7 @@ const Events = () => {
             imgUrl='/resources/mma_2.jpg'
             link='/events/2'
             description='Come and try out our MMA taster session!'
-            date='Saturday 1st October 22'
+            date='Saturday 1st October'
             time='5:00pm'
             duration='(2 hours)'
           />

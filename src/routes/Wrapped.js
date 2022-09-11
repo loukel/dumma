@@ -1,11 +1,11 @@
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-const Wrapped = ({ children}) => {
+const Wrapped = ({ children }) => {
   return (
     <>
       <Header />
-        {children}
+      {children}
       <Footer />
     </>
   )
