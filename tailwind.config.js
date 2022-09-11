@@ -11,14 +11,17 @@ module.exports = {
       'primary': '#413F42',
       'secondary': '#191919',
       'tertiary': '#413F42',
-      'logo-yellow': '#E1B335',
+      'instagram': '#bc2a8d',
+      'whatsapp': '#25D366',
     }),
     textColor: theme => ({
       ...theme('colors'),
       'primary': '#FFFFFF',
-      'logo-yellow': '#E1B335',
     }),
     extend: {
+      colors: {
+        'logo-yellow': '#E1B335',
+      },
       keyframes: {
         fade: {
           'from': { opacity: 0 },

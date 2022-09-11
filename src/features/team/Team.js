@@ -2,12 +2,12 @@ import TeamCard from "./TeamCard"
 
 const Team = () => {
   return ( 
-    <section class="text-gray-600 body-font animate-fade">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR EXEC</h1>
+    <section className="text-gray-600 body-font animate-fade">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-20">
+          <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR EXEC</h1>
         </div>
-        <div class="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4">
           <TeamCard 
             name='Nosheena Jabeen' 
             role='President'
@@ -71,11 +71,11 @@ const Team = () => {
           />
         </div>
       </div>
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR PARTNERS</h1>
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-20">
+          <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR PARTNERS</h1>
         </div>
-        <div class="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4">
           <TeamCard 
             name='5th Element BJJ' 
             role='BJJ'

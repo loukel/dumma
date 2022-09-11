@@ -4,8 +4,8 @@ const Events = () => {
   return ( 
     <div className='p-6'>
       <h1 className='text-3xl font-bold text-center mb-6'>Try a Taster Session!</h1>
-      <section class='mb-32 text-gray-800'>
-        <div class='grid md:grid-cols-2 gap-6'>
+      <section className='text-gray-800'>
+        <div className='grid md:grid-cols-2 gap-6'>
           <EventCard 
             imgUrl='/resources/mma_1.jpg'
             link='/events/1'
