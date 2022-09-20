@@ -80,15 +80,15 @@ const Team = () => {
             name='5th Element BJJ' 
             role='BJJ'
             imgFile='5th_element.png'
-            description="          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sunt dolor exercitationem quisquam ut nam vel, dolorem sit, inventore ad nostrum ducimus minus saepe at perspiciatis cum cumque, odit consectetur. Quibusdam beatae quod dolore tempore ea. Quae cumque ea impedit, dolorem est natus dolore labore. Deleniti, quis. Inventore, exercitationem vel!"
+            description={'5th Element is Brazillian Jiu Jitsu gym based in Durham. They provide excellent and experienced coaching for all levels of BJJ.'}
             instagram='https://www.instagram.com/5thelementdurham/'
           />
           <TeamCard
             name='Itaipava' 
             role='MMA' 
             imgFile='itaipava.jpg'
+            description={'Itaipava MMA provides high quality Mixed Martials sessions for DUMMA'}
             bordered={false}
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sunt dolor exercitationem quisquam ut nam vel, dolorem sit, inventore ad nostrum ducimus minus saepe at perspiciatis cum cumque, odit consectetur. Quibusdam beatae quod dolore tempore ea. Quae cumque ea impedit, dolorem est natus dolore labore. Deleniti, quis. Inventore, exercitationem vel!"
             instagram='https://www.instagram.com/itaipava_walbottle/'
           />
           <TeamCard
@@ -96,7 +96,7 @@ const Team = () => {
             imgFile='team_durham.jpg'
             role='Support'
             bordered={false}
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sunt dolor exercitationem quisquam ut nam vel, dolorem sit, inventore ad nostrum ducimus minus saepe at perspiciatis cum cumque, odit consectetur. Quibusdam beatae quod dolore tempore ea. Quae cumque ea impedit, dolorem est natus dolore labore. Deleniti, quis. Inventore, exercitationem vel!"
+            description="Team Durham is a student-run organisation responsible for sport at Durham University. In contrast to most British universities it is a separate organisation with the status of a students' union, rather than a part of Durham Students' Union, the primary student representative body at Durham University."
             instagram='https://www.instagram.com/team.durham/'
           />
         </div>
