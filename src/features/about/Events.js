@@ -28,7 +28,7 @@ const Events = () => {
       <section className='text-gray-800'>
         <div className='grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  gap-6'>
           <EventCard 
-            imgUrl='/resources/mma_1.jpg'
+            imgUrl='/resources/bjj_2.jpg'
             link='/events/1'
             title='BJJ at Maiden Castle Dojo'
             time='5-6pm'
@@ -37,7 +37,7 @@ const Events = () => {
             usedSlots={event1Count}
           />
           <EventCard 
-            imgUrl='/resources/mma_2.jpg'
+            imgUrl='/resources/mma_1.jpg'
             link='/events/2'
             title='MMA at Maiden Castle Dojo'
             date='Wed 28th September'
@@ -55,7 +55,7 @@ const Events = () => {
             usedSlots={event3Count}
           />
           <EventCard 
-            imgUrl='/resources/mma_2.jpg'
+            imgUrl='/resources/bjj_2.jpg'
             link='/events/4'
             title='BJJ at 5th Element'
             date='Sun 2nd October'
