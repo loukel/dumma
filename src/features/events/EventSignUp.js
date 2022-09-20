@@ -94,13 +94,19 @@ const EventSignUp = () => {
   let eventDisplay = ''
   if (eventId === '1') {
     eventTitle = 'Sign Up to the Taster!'
-    eventDisplay = "5:00pm, Wednesday 28 September (2 hours)"
+    eventDisplay = "5-6pm, 1 Hour of BJJ, Wednesday 28th September at Maiden Castle Dojo"
   } else if (eventId === '2') {
     eventTitle = 'Sign Up to the Taster!'
-    eventDisplay = "5:00pm, Saturday 1st October (2 hours)"
+    eventDisplay = "6-7pm, 1 Hour of MMA, Wednesday 28th September at Maiden Castle Dojo"
+  } else if (eventId === '3') {
+    eventTitle = 'Sign Up to the Taster!'
+    eventDisplay = "11-12pm, 1 Hour of MMA, Saturday 1st October at Maiden Castle Dojo"
+  } else if (eventId === '4') {
+    eventTitle = 'Sign Up to the Taster!'
+    eventDisplay = "11-12pm, 1 Hour of BJJ, Sunday 2nd October at 5th Element [DH1 5EE]"
   } else {
     eventTitle = 'This event does not exist!'
-    eventDisplay = ': 0'
+    eventDisplay = ': O'
   }
 
   return ( 
