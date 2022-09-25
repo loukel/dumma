@@ -1,6 +1,6 @@
 import Events from "./Events"
 import Socials from "./Socials"
-// import TimetableDisplay from "./TimetableDisplay"
+import TimetableDisplay from "./TimetableDisplay"
 
 const About = () => {
   return ( 
@@ -18,10 +18,9 @@ const About = () => {
       </div>
       <Events />
       <Socials />
-      <div className='mb-40'></div>
-      {/* <div className='p-6'>
+      <div className='p-6 mb-40'>
         <TimetableDisplay />
-      </div> */}
+      </div>
     </div>
   )
 }
