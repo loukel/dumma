@@ -18,7 +18,7 @@ const Team = () => {
           <TeamCard 
             name='Eunice Hung' 
             role='Vice President' 
-            imgFile='eunice_hung.jpg'
+            imgFile='eunice_hung.jpeg'
             description="The Vice President assists in the planning and delivery of club activities and provides support where needed. In some circumstances, a VP might need to step in to take place of the President, or otherwise charged with specific responsibilities in the running of the society."
             instagram='https://www.instagram.com/eunice_hung_/'
           />
@@ -33,7 +33,7 @@ const Team = () => {
             name='Jamie Harris' 
             role='Treasurer'
             description="Treasurer's remit is to provide the society with sound financial administration so that all aspects of a society's funds are properly managed and accounted for. They oversee the financial side of all society activities, such as social events and fundraising events."
-            imgFile='jamie_harris.jpg'
+            imgFile='jamie_harris.jpeg'
             instagram='https://www.instagram.com/jamieharris1512/'
           />
           <TeamCard 
