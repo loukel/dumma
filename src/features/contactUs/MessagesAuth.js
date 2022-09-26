@@ -12,7 +12,7 @@ const MessagesAuth = () => {
     // eslint-disable-next-line
   }, [password])
 
-  if (password === 'password') {
+  if (password === pw) {
     return <Messages />
   } else {
     return (
