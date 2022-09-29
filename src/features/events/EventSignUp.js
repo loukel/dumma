@@ -32,12 +32,20 @@ const EventSignUp = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+
     if (validateForm()) {
       try {
         let users = await getEventUsers(eventId.toString())
-
+        
         if (users.length >= 50) {
           alert("Sorry, this session is full!")
+          return
+        }
+
+        const emailAlreadyExists = users.find(user => user.data.email === email)
+
+        if (emailAlreadyExists) {
+          alert("You've already signed up")
           return
         }
 
@@ -104,6 +112,9 @@ const EventSignUp = () => {
   } else if (eventId === '4') {
     eventTitle = 'Sign Up to the Taster!'
     eventDisplay = "11-12pm, 1 Hour of BJJ, Sunday 2nd October at 5th Element [DH1 5EE]"
+  } else if (eventId === '5') {
+    eventTitle = 'Sign Up to the Taster!'
+    eventDisplay = "5-6pm, 1 Hour of Kickboxing, Sunday 2nd October at Maiden Castle Dojo"
   } else {
     eventTitle = 'This event does not exist!'
     eventDisplay = ': O'
