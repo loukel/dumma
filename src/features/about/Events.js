@@ -71,7 +71,7 @@ const Events = () => {
             link='/events/5'
             title='Kickboxing at Maiden Castle Dojo'
             date='Sun 2nd October'
-            time='5-6pm'
+            time='4-5pm'
             limit={50}
             usedSlots={event5Count}
           />
