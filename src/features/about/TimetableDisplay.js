@@ -6,24 +6,8 @@ const TimetableDisplay = () => {
       <p className="p-2">Wednesday 5-7pm at Maiden Castle Dojo – MMA w/Stephen</p> 
       <p className="p-2">Saturday 10-12pm at Maiden Castle Dojo – MMA w/Stephen</p> 
       <p className="p-2">Sunday 10-12pm at 5th Element Dojo – BJJ w/5th Element</p> 
+      <p className="p-2">Sunday 4-6pm at Maiden Castle – Kickboxing w/Ironworks</p> 
       {/* Use grid instead wtih squares from monday to sunday */}
-      {/* <table>
-        <tr>
-          <th>Monday</th>
-          <th>Tuesday</th>
-          <th>Wednesday</th>
-        </tr>
-        <tr>
-          <td>Monday Subject 1</td>
-          <td>Tuesday Subject 1</td>
-          <td>Wednesday Subject 1</td>
-        </tr>
-        <tr>
-          <td>Monday Subject 2</td>
-          <td>Tuesday Subject 2</td>
-          <td>Wednesday Subject 2</td>
-        </tr>
-      </table> */}
     </section>
   )
 }
