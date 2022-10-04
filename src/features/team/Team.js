@@ -53,7 +53,7 @@ const Team = () => {
             name='Rik Knowles' 
             role='BJJ Team Captain'
             description="The society's captain provides a central point of contact, and is the vital link, for all athletes within the society. The role of the Sports Captain is to represent the views of the athletes and contribute to the development of the society by providing thoughts and comments from an athletes perspective."
-            imgFile='rik_knowles.jpg'
+            imgFile='rik_knowles.png'
           />
           <TeamCard 
             name='Chantal Stenger' 
