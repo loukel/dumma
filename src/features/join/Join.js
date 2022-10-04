@@ -1,8 +1,4 @@
-import { useNavigate } from 'react-router-dom'
-
 const Join = () => {
-  const navigate = useNavigate()
-
   return ( 
     <div className="animate-fade lg:mx-16">
       <div className='p-6'>
