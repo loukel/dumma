@@ -114,7 +114,7 @@ const EventSignUp = () => {
     eventDisplay = "11-12pm, 1 Hour of BJJ, Sunday 2nd October at 5th Element [DH1 5EE]"
   } else if (eventId === '5') {
     eventTitle = 'Sign Up to the Taster!'
-    eventDisplay = "5-6pm, 1 Hour of Kickboxing, Sunday 2nd October at Maiden Castle Dojo"
+    eventDisplay = "4-5pm, 1 Hour of Kickboxing, Sunday 2nd October at Maiden Castle Dojo"
   } else {
     eventTitle = 'This event does not exist!'
     eventDisplay = ': O'
