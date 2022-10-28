@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { getEventUsers } from "@/services/eventApi";
-import EventCard from "./EventCard";
+import { useEffect, useState } from "react"
+import { getEventUsers } from "@/services/eventApi"
+import EventCard from "@/components/EventCard"
 
 const Events = () => {
   const [event5Count, setEvent5Count] = useState('')
@@ -33,4 +33,4 @@ const Events = () => {
   )
 }
  
-export default Events;
+export default Events

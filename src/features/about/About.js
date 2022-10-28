@@ -2,6 +2,7 @@
 import Socials from "./Socials"
 import TimetableDisplay from "./TimetableDisplay"
 import { useNavigate } from 'react-router-dom'
+import FAQ from "./FAQ"
 
 const About = () => {
   const navigate = useNavigate()
@@ -21,9 +22,10 @@ const About = () => {
       </div>
       {/* <Events /> */}
       <Socials />
-      <div className='p-6 mb-52'>
+      <div className='p-6'>
         <TimetableDisplay />
       </div>
+      <FAQ />
     </div>
   )
 }
