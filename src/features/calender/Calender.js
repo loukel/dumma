@@ -38,6 +38,7 @@ const Calender = () => {
         <section className='text-gray-800'>
           <div className='grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-6'>
             <CalenderCard colour={'bg-red-600'} title={'BJJ: Allstars'} location='Manchester' date={'4th February'}/>
+            <CalenderCard colour={'bg-red-600'} title='MMA: Inter-Uni MMA Comp' location='Bristol' date={'25th February'}/>
           </div>
         </section>
       </div>
