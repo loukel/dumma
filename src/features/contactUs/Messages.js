@@ -52,6 +52,7 @@ const Messages = () => {
             <th>Email</th>
             <th>Subject</th>
             <th>Message</th>
+            <th>At</th>
             <th>Read</th>
           </tr>
         </thead>
@@ -63,7 +64,8 @@ const Messages = () => {
                 <td className='bg-gray-50'>{message.data.email}</td>
                 <td>{message.data.subject}</td>
                 <td className='bg-gray-50'>{message.data.message}</td>
-                <td><input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" checked={message.data.readAt} onChange={e => updateReadAt(message.ref.id, { ...message.data, readAt: e.target.checked ? new Date().toString() : null })}/></td>
+                <td>{new Date(message.data.createdAt).toLocaleDateString("en-UK")}</td>
+                <td className='bg-gray-50'><input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" checked={message.data.readAt} onChange={e => updateReadAt(message.ref.id, { ...message.data, readAt: e.target.checked ? new Date().toString() : null })}/></td>
               </tr>
             ))
             : readMessages.map(message => (
@@ -72,7 +74,8 @@ const Messages = () => {
                 <td className='bg-gray-50'>{message.data.email}</td>
                 <td>{message.data.subject}</td>
                 <td className='bg-gray-50'>{message.data.message}</td>
-                <td><input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" checked={message.data.readAt} onChange={e => updateReadAt(message.ref.id, { ...message.data, readAt: e.target.checked ? new Date().toString() : null })}/></td>
+                <td>{new Date(message.data.createdAt).toLocaleDateString("en-UK")}</td>
+                <td className='bg-gray-50'><input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" checked={message.data.readAt} onChange={e => updateReadAt(message.ref.id, { ...message.data, readAt: e.target.checked ? new Date().toString() : null })}/></td>
               </tr>
             ))
           }
