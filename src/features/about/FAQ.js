@@ -10,7 +10,7 @@ const FAQ = () => {
           </div>
           <div>
             <h3 className="font-semibold">Can I try the sessions before paying?</h3>
-            <p className="mt-1">You can have two free sessions before paying. All you need to do is show up and let an exec know your name.</p>
+            <p className="mt-1">You have two free sessions before you have to pay. All you need to do is show up and let an exec know your name.</p>
           </div>
         </div>
       </div>
