@@ -1,4 +1,4 @@
-const CalenderCard = ({ colour, title, location, date, url }) => {
+const CalendarCard = ({ colour, title, location, date, url }) => {
   return ( 
     <div data-mdb-ripple='true' data-mdb-ripple-color='light' className={'overflow-hidden rounded ' + colour}>
         <a href={url} target='_blank' rel='noreferrer'>
@@ -13,7 +13,7 @@ const CalenderCard = ({ colour, title, location, date, url }) => {
           </div>
         </a>
     </div>
-  );
+  )
 }
  
-export default CalenderCard
+export default CalendarCard
