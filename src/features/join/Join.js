@@ -1,4 +1,9 @@
 const Join = () => {
+  const name = 'Team Durham - MMA'
+  const sortCode = '202766'
+  const accountNumber = '13108465'
+  const bankName = 'Barclays'
+
   return ( 
     <div className="animate-fade lg:mx-16">
       <div className='p-6'>
@@ -19,20 +24,20 @@ const Join = () => {
           Membership is to be paid as a direct transfer to the following account:
         </p>
         <p className="text-center mt-2 p-1">
-        <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText('Nosheena Jabeen')}>Copy</button>
-          <b>Name:</b> Nosheena Jabeen 
+        <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText(name)}>Copy</button>
+          <b>Name:</b> {name}
         </p>
         <p className="text-center p-1">
-          <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText('070806')}>Copy</button>
-          <b>Sort Code:</b> 070806
+          <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText(sortCode)}>Copy</button>
+          <b>Sort Code:</b> {sortCode}
         </p>
         <p className="text-center p-1">
-          <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText('22821560')}>Copy</button>
-          <b>Account No:</b> 22821560
+          <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText(accountNumber)}>Copy</button>
+          <b>Account No:</b> {accountNumber}
         </p>
         <p className="text-center p-1">
-          <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText('Nationwide')}>Copy</button>
-          <b>Bank Name:</b> Nationwide
+          <button className='text-white bg-logo-yellow border-0 focus:outline-none hover:bg-yellow-300 rounded px-2 mr-2' onClick={() => navigator.clipboard.writeText(bankName)}>Copy</button>
+          <b>Bank Name:</b> {bankName}
         </p>
         <p className="text-center p-1">
           <b>Ref:</b> Surname. Initial. MMA. 
