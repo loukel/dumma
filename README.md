@@ -1,7 +1,7 @@
 # About
 This is the front-end repo for Team Durham MMA's site.
 
- [link](http://dumma.uk)
+ [dumma.uk](http://dumma.uk)
 
 # Technolgies
 - [React](https://reactjs.org/)
