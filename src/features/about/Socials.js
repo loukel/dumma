@@ -5,6 +5,7 @@ const Socials = () => {
 
   return ( 
     <div className='p-6'>
+      <h1 className="text-3xl font-bold text-center mb-5">Stay Up to Date</h1>
       <div className='flex flex-col md:flex-row justify-center '>
         {/* WhatsApp */}
         <a href={whatsAppLink} target="_blank" rel="noopener noreferrer" className="flex items-center mx-5 rounded p-3 border-2 border-white hover:bg-gray-100 font-bold">

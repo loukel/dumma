@@ -9,7 +9,7 @@ const Header = () => {
           <img src={logo} alt='logo' style={{ maxWidth: '60px' }}/>
           <span className="ml-3 text-2xl font-black text-logo-yellow">Durham University MMA</span>
         </Link>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center leading-10">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l border-gray-600 flex flex-wrap items-center text-base justify-center leading-10 border-t md:border-t-0">
           <Link to='/' className="mr-5 hover:text-white">About</Link>
           <Link to='/calendar' className="mr-5 hover:text-white">Calendar</Link>
           <Link to='/team' className="mr-5 hover:text-white">Meet the Team</Link>
