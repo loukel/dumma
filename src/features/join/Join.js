@@ -1,8 +1,8 @@
 const Join = () => {
-  const name = 'Nosheena Jabeen'
-  const sortCode = '070806'
-  const accountNumber = '22821560'
-  const bankName = 'Nationwide'
+  const name = 'Team Durham - MMA'
+  const sortCode = '202766'
+  const accountNumber = '13108465'
+  const bankName = 'Barclays'
 
   return ( 
     <div className="animate-fade lg:mx-16">
